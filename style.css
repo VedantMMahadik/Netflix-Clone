@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.home {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7316176470588236) 0%, rgba(0, 0, 0, 0.7428221288515406) 35%, rgba(0, 0, 0, 0.7344187675070029) 100%), url("https://assets.nflxext.com/ffe/siteui/vlv3/594f8025-139a-4a35-b58d-4ecf8fdc507c/d3c4e455-f0bf-4003-b7cd-511dda6da82a/IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: max(1600px,100vh); */
+    height: 644px;
+    position: relative;
+}
+
+.nav {
+    /* background-color: brown; */
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* background-color: red; */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.box1 {
+    /* background-color: red; */
+    /* background-color: blue; */
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto; */
+}
+
+.hometext {
+    /* background-color: rgb(220, 203, 203); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.emailbutton input {
+    padding: 18px;
+    width: 220px;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    margin-right: 9px;
+}
+
+.emailbutton button {
+    padding: 10px 39px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.hometext h1 {
+    padding: 15px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hometext h3 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hometext p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 23px;
+    font-size: 1.125rem;
+    margin-top: 10px;
+}
+
+.nav span {
+    margin-top: 23px;
+    /* background-color: blue; */
+}
+
+.nav span img {
+    width: 150px;
+}
+
+#languages {
+    padding: 5px 10px;
+    background: transparent;
+    border: 2px solid rgb(209, 205, 205);
+    border-radius: 5px;
+    color: white;
+}
+
+#languages option {
+    color: black;
+}
+
+.nav button {
+    padding: 7px 14px;
+    margin-left: 9px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    color: white;
+}
+
+.grey {
+    height: 10px;
+    background-color: rgb(48, 46, 46)
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    width: 428px;
+    top: 107px;
+    right: 57px;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first>div :nth-child(1) {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secImg .video2 {
+    position: absolute;
+    width: 361px;
+    right: 103px;
+    top: 62px;
+}
+
+.faq {
+    /* background-color: red; */
+    width: 70vw;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.faq h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faq .faqbox {
+    height: 80px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.faq .faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox span {
+    font-size: 24px;
+}
+
+.faq p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.footer {
+    /* background-color: red; */
+    width: 70vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px;
+    padding: 34px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.7);
+    ;
+    margin: 50px 0px 20px 14vw;
+    font-size: 18px;
+}
+
+.footer .question a {
+    color: rgba(255, 255, 255, 0.7);
+    ;
+}
+
+.footer .question {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputlast {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    /* background-color: blue; */
+}
+
+.inputlast span {
+    color: rgba(255, 255, 255, 0.7);
+    ;
+    font-size: smaller;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .emailbutton {
+        flex-direction: column;
+        height: max-content;
+        /* background-color: black; */
+        align-items: center;
+        padding-bottom: 28vw;
+    }
+
+    .first>div :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .first>div :nth-child(2) {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .emailbutton button {
+        margin-top: 15px;
+    }
+
+    .emailbutton input {
+        width: 150px;
+    }
+
+    .box1 .hometext h1 {
+        font-size: 2rem;
+    }
+
+    .hometext {
+        margin-top: 80px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .secimg1 img {
+        position: relative;
+        width: 390px;
+        z-index: 10;
+    }
+
+    .secImg img {
+        position: relative;
+        width: 311px;
+        z-index: 10;
+    }
+
+    .secImg .video2 {
+        width: 186px;
+        top: 56px;
+        right: 67px;
+    }
+
+    .secImg video {
+        width: 220px;
+        top: 81px;
+        right: 47px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .faq h2 {
+        font-size: 28px;
+    }
+
+    .faqbox span {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 901px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+}
